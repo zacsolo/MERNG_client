@@ -7,7 +7,7 @@ import ApolloClient from 'apollo-client';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000',
+  uri: 'https://nameless-ridge-54131.herokuapp.com/',
 });
 
 const authLink = setContext(() => {
